@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hiblock>
+	<hiblock>
+		<id>2</id>
+		<name>Vacancy</name>
+		<table_name>vacancy_list</table_name>
+	</hiblock>
+	<langs>
+		<lang>
+			<id>2</id>
+			<lid>ru</lid>
+			<name>Вакансии</name>
+		</lang>
+		<lang>
+			<id>2</id>
+			<lid>en</lid>
+			<name>vacancy_list</name>
+		</lang>
+	</langs>
+	<fields>
+		<field>
+			<id>107</id>
+			<entity_id>HLBLOCK_2</entity_id>
+			<field_name>UF_NAME_VACANCY</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en>Vacancy name</en>
+				<ru>Название вакансии</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>108</id>
+			<entity_id>HLBLOCK_2</entity_id>
+			<field_name>UF_VACANCY_PICTURE</field_name>
+			<user_type_id>file</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<list_width>0</list_width>
+				<list_height>0</list_height>
+				<max_show_size>0</max_show_size>
+				<max_allowed_size>0</max_allowed_size>
+				<extensions />
+				<target_blank>Y</target_blank>
+			</settings>
+			<edit_form_label>
+				<en>Vacancy picture</en>
+				<ru>Картинка слайда</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>file</base_type>
+		</field>
+		<field>
+			<id>109</id>
+			<entity_id>HLBLOCK_2</entity_id>
+			<field_name>UF_VACANCY_DESCRIPTION</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>100</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<en>Vacancy description</en>
+				<ru>Описание вакансии</ru>
+			</edit_form_label>
+			<list_column_label>
+				<en />
+				<ru />
+			</list_column_label>
+			<list_filter_label>
+				<en />
+				<ru />
+			</list_filter_label>
+			<error_message>
+				<en />
+				<ru />
+			</error_message>
+			<help_message>
+				<en />
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+	</fields>
+	<items>
+		<item>
+			<id>1</id>
+			<uf_name_vacancy>Бухгалтер</uf_name_vacancy>
+			<uf_vacancy_picture>iblock/226/72rdvol5w0kxht4jb8ewo90io2p3n3t3/4.jpg</uf_vacancy_picture>
+			<uf_vacancy_description>Требуется бухгалтер для первичной документации. Опыт работы от 3-х лет. Стрессоустойчивость, коммуникабельность, ответственность. ЗП от 60 000 руб.</uf_vacancy_description>
+		</item>
+		<item>
+			<id>2</id>
+			<uf_name_vacancy>Программист</uf_name_vacancy>
+			<uf_vacancy_picture>iblock/c19/ctn1vmki9zqk01fmmbs0qt960urqs61o/3.jpg</uf_vacancy_picture>
+			<uf_vacancy_description>Требуется программист на удаленную работу. Администрирование и разработка Битрикс24, Битрикс УС, 1С Битрикс. Работа в режиме многозадачности, соблюдение дэд-лайнов, обучаемость. ЗП от 50 000 руб.</uf_vacancy_description>
+		</item>
+		<item>
+			<id>3</id>
+			<uf_name_vacancy>Технический директор</uf_name_vacancy>
+			<uf_vacancy_picture>uf/b82/b5wb260x6223dg1jlzjzei9jj3fe8pr1/5.jpg</uf_vacancy_picture>
+			<uf_vacancy_description>Требуется технический директор с большим опытом ведения проектов. Опыт работы в крупных компаниях от 5 лет. Высокий навык управления, коммуникаций и постановки задач по системе SMART. ЗП обсуждается с успешным кандидатом. Соц. пакет, доставка на работу служебным транспортом.</uf_vacancy_description>
+		</item>
+	</items>
+</hiblock>
